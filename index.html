@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <image src="logo.jpeg" alt="" width="200" height="" align:left>
+</head>
+<body>
+    <style>
+        div.a {
+            font-size: 20px;
+        }
+        h1{
+            font-size: 30px;
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+        body {
+            background-image: url('p1.jpeg');
+        }
+        .button {
+            color: white;
+            background-color: #3666e6;
+        }
+        .button1 {
+            padding: 14px 160px;
+            color: white;
+            background-color: #3666e6
+           
+        }
+        .center{
+            margin: auto;
+            width: 100px;
+            height: 100px;
+            padding: 10px;
+        }
+        .center-main {
+            margin: auto;
+            width: 400px;
+            height: 500px;
+            border-radius: 15px;
+            background-color: white;
+            padding: 100px;
+        }
+    </style>
+        <div class="center-main">
+            <form action="/action_page.php">
+                <div class="center">
+                    <img src="img.jpeg" alt="img">
+                </div>
+                <h1>It's a delight to have you onboard</h1>
+                <h4>Help us know you better.</h4>
+                <h4>(This is how we optimize Wobot as per your business needs)</h4>
+            <div class="a">
+                <label for="name">Company name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Example Inc" size="55"><br><br>
+                <label for="iname">Industry</label><br>
+                <select class="a">
+                  <option value="select" size="50">Select</option>
+                </select>
+            <br><br>
+            <label for="size">Company size</label>
+            <div class="btn-group">
+                <button>1-20</button>
+                <button>21-50</button>
+                <button class="button">51-200</button>
+                <button>201-500</button>
+                <button>500+</button>
+              </div><br>
+            <button class="button1" type="submit">Get Started</button>
+            </div>
+        </form>
+        </div>
+        <h4> Terms of use | Privacy policy</h4>
+</body>
+</html>
